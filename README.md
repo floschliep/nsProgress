@@ -77,10 +77,4 @@ $('#progress_modal').nsProgress('showWithImageAndStatusAndMaskType', 'nsLoader.g
 $('#progress_modal').nsProgress('dismiss');
 
 ```
-
-## TODO
-Feel free to fork and add any of these if I don't get round to doing them :)
-
-* Delayed dissmissal message like SVProgressHUD has (eg, SVProgressHUD dismissWithError:@"Error Connecting")
-* Swap out for retina if the @2x images exist
-* More config settings
+Methods starting with `showSuccess` or `showError` will automatically dismiss the HUD after an appropriate amount of time.
